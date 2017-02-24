@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var stachio = require('gulp-stachio');
 var foreach = require('gulp-foreach');
+var addsrc = require("gulp-add-src");
 
 gulp.task('default', function () {
   return gulp.src('*.hbs')
@@ -111,5 +112,6 @@ gulp.task('default', function () {
              }),
            }))
     }))
+          .pipe(addsrc(['css/**','js/**','fonts/**','images/**'], { base: '.'}))
     .pipe(gulp.dest('dist'));
 });
