@@ -8,6 +8,7 @@ gulp.task('default', function () {
     .pipe(foreach(function(stream, file){
       return stream
            .pipe(stachio({
+             siteTitle:"SIM Paraguay | Sociedad Internacional Misionera",
              id: "home",
              homeSlider: ([
                 {
