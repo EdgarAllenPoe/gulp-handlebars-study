@@ -37,40 +37,40 @@ gulp.task('default', function () {
                 },
               ]),
              services: ({
-               id: "services",
-               header: "XOur Services",
+               id: "Enfoques",
+               header: "Nuestros Enfoques",
                tagline: "XLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam",
                serviceList: ([
                  {
-                 name: "Service Name1",
+                 name: "Iglesias Rurales",
                  tagline: "tagline",
-                 fontAwsome: "flask"
+                 fontAwsome: "group"
                  },
                  {
-                 name: "Service Name2",
+                 name: "Personas Viviendo Con VIH",
                  tagline: "tagline",
-                 fontAwsome: "flask"
+                 fontAwsome: "support"
                  },
                  {
-                 name: "Service Name3",
+                 name: "Comunidades Originarias",
                  tagline: "tagline",
-                 fontAwsome: "flask"
+                 fontAwsome: "leaf"
                  },
                  {
-                 name: "Service Name4",
+                 name: "Universidades Rurales",
                  tagline: "tagline",
-                 fontAwsome: "flask"
+                 fontAwsome: "briefcase"
                  },
-                 {
-                 name: "Service Name5",
-                 tagline: "tagline",
-                 fontAwsome: "flask"
-                 },
-                 {
-                 name: "Service Name6",
-                 tagline: "tagline",
-                 fontAwsome: "flask"
-                 }
+                //  {
+                //  name: "Capacitacion de Lideres",
+                //  tagline: "tagline",
+                //  fontAwsome: "flask"
+                //  },
+                //  {
+                //  name: "Serviendo Los Que Luchan con VIH",
+                //  tagline: "tagline",
+                //  fontAwsome: "flask"
+                //  }
                 ])
              }),
              aboutUs: ({
